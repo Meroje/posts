@@ -16,13 +16,13 @@ Toutes les notions mentionnées ici sont très bien [documentées](http://larave
 
 ### Les routes
 
-{% highlight php %}
+```php
 <?php
 Route::get('/', function()
 {
 return View::make('home.index');
 });
-{% endhighlight %}
+```
 
 Voila à quoi ressemble l'utilisation la plus basique de Laravel.
 
@@ -30,22 +30,22 @@ Voila à quoi ressemble l'utilisation la plus basique de Laravel.
 
 Les sessions servent à faire transiter des données entre les pages, Laravel en tire très avantageusement l'utilité.
 
-{% highlight php %}
+```php
 <?php
 return Redirect::to('profile')->with('message', 'Welcome Back!');
-{% endhighlight %}
+```
 
 ### Les modules (aka. Bundles)
 
 La plus importante innovation apportée par cette version est incontestablement le retour des modules avec une nouvelle intégration bien plus efficace que la précédente.
-Un module fonctionne exactement comme l'application principale (votre application est en réalité un module), il devient ainsi très aisé de partager un code à la communautée.  
+Un module fonctionne exactement comme l'application principale (votre application est en réalité un module), il devient ainsi très aisé de partager un code à la communautée.
 [Retrouvez les modules ici](http://bundles.laravel.com/) et [apprenez en plus ici](http://laravel.com/docs/bundles)
 
 ### Les migrations
 
 Les migrations permettent de définir le schéma de notre base de donnée, et de modifier celui-ci. Il est ainsi possible d'ajouter une colonne à une table, par exemple à partir d'un module afin d'étendre le profil utilisateur.
 
-{% highlight php %}
+```php
 <?php
 Schema::create('users', function($table)
 {
@@ -53,7 +53,7 @@ Schema::create('users', function($table)
 	$table->string('email')->unique();
 	$table->string('password');
 });
-{% endhighlight %}
+```
 
 [Retrouvez les migrations ici](http://laravel.com/docs/database/schema)
 
@@ -61,13 +61,13 @@ Schema::create('users', function($table)
 
 Laravel se dote d'un outil en ligne de commande qui permet de faciliter un bon nombre d'intéractions avec l'application, comme lancer des tests, installer un module, ou exécuter une migration :
 
-{% highlight sh %}
+```sh
 $ php artisan test
 
 $ php artisan migrate
 
 $ php artisan migrate:rollback
-{% endhighlight %}
+```
 
 [Retrouvez artisan ici](http://laravel.com/docs/artisan/commands)
 

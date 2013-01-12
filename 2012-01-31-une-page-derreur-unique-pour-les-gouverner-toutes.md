@@ -14,7 +14,7 @@ A garder sous la main donc.
 
 ### HTACCESS
 
-{% highlight apache %}
+```apache
 ErrorDocument 400 /errors.php
 ErrorDocument 403 /errors.php
 ErrorDocument 404 /errors.php
@@ -23,11 +23,11 @@ ErrorDocument 408 /errors.php
 ErrorDocument 500 /errors.php
 ErrorDocument 502 /errors.php
 ErrorDocument 504 /errors.php
-{% endhighlight %}
+```
 
 ### PHP
 
-{% highlight php %}
+```php
 <?php
 $status = $_SERVER['REDIRECT_STATUS'];
 $codes = array(
@@ -48,6 +48,6 @@ if ($title == false || strlen($status) != 3) {
 }
 
 echo '<h1>Hold up! '.$title.' detected</h1><p>'.$message.'</p>';
-{% endhighlight %}
+```
 
 [Source](http://papermashup.com/create-an-error-page-to-handle-all-errors-with-php/)
