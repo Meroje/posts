@@ -2,9 +2,17 @@
 title: Une page d'erreur unique pour les gouverner toutes
 categories: [code, snippet]
 tags: [php, htaccess, http, erreurs]
+comments: true
+share: true
 
 description: Ce petit code à ajouter à votre .htaccess que je vous propose vous permettra de récupérer toutes les erreurs http avec le message associé, afin de savoir tout de suite à quelle erreur nous avons affaire (utile pendant un développement). Ce code peut également très bien servir de base pour gérer plus efficacement ces erreurs sur un environnement de production, pour être prévenu par email par exemple, ou tout simplement pour avoir une page toute jolie.
 
+link: http://papermashup.com/create-an-error-page-to-handle-all-errors-with-php/
+
+image:
+  feature: abstract-5.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 layout: post
 ---
 
@@ -49,5 +57,3 @@ if ($title == false || strlen($status) != 3) {
 
 echo '<h1>Hold up! '.$title.' detected</h1><p>'.$message.'</p>';
 ```
-
-[Source](http://papermashup.com/create-an-error-page-to-handle-all-errors-with-php/)

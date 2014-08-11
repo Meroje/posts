@@ -2,9 +2,17 @@
 title: PHP rencontre l'elegance et la beaute, intro a Laravel 3.0
 categories: [code, laravel]
 tags: [php, laravel, framework]
+comments: true
+share: true
 
 description: Laravel est un framework dont la motivation première est la beauté du code. Cette nouvelle version, qui arrive moins d’un an après la création de ce framework apporte tout son lot de nouveautées, toutes plus intéressantes les unes que les autres. On y trouvera entre autres les migrations de base de données, l’intégration native des tests unitaires et les modules.
 
+link: http://forrst.com/posts/PHP_meet_elegance_Introducing_Laravel_3_0-dfi
+
+image:
+  feature: abstract-5.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 layout: post
 ---
 ### Il est là !
@@ -85,5 +93,3 @@ Un système de gestion des événements simple est inclut dans Laravel, permetta
 
 J'espère que cet aperçu des nouveautés vous à donné envie de découvrir Laravel plus en profondeur.
 Merci de m'avoir lu!
-
-[Source](http://forrst.com/posts/PHP_meet_elegance_Introducing_Laravel_3_0-dfi)

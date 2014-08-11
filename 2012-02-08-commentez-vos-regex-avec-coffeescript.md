@@ -2,9 +2,17 @@
 title: Commentez vos RegEx avec CoffeeScript
 categories: [code, snippet]
 tags: [javascript, coffeescript]
+comments: true
+share: true
 
 description: "Javascript, et par extension coffeescript nous permettent de réaliser, entres autres, une pré validation des formulaires côté client, pour améliorer l’expérience de celui-ci. Pour cela nous disposons d’un outil très utile : les regex (ou expressions régulières)."
 
+link: http://www.elijahmanor.com/2012/02/regular-expressions-in-coffeescript-are.html
+
+image:
+  feature: abstract-5.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 layout: post
 ---
 Javascript, et par extension coffeescript nous permettent de réaliser, entres autres, une pré validation des formulaires côté client, pour améliorer l'expérience de celui-ci. Pour cela nous disposons d'un outil très utile : les regex (ou expressions régulières).
@@ -47,5 +55,3 @@ else
 ```
 
 Nous voyons dés le premier regard toute la différence qu'apporte ce compileur : _nous pouvons écrire notre regex sur plusieurs lignes_, ce qui nous permet de commenter facilement chaque morceau de cette regex.
-
-[Source](http://www.elijahmanor.com/2012/02/regular-expressions-in-coffeescript-are.html)

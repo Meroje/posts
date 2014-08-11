@@ -4,7 +4,13 @@ date: '2012-07-06'
 description: J'expose ma vision sur le framework css bootstrap par twitter, et comment il est devenu un fléau pour le web design.
 categories: [code]
 tags: [css, framework, twitter bootstrap, twitter, bootstrap]
+comments: true
+share: true
 
+image:
+  feature: abstract-5.jpg
+  credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 layout: post
 ---
 
